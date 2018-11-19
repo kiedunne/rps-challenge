@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Rock, Paper, Scissors</title>
+    <link type="text/css" rel="stylesheet" href="style.css">
+  </head>
+
+  <body>
+    <h1> ROCK, PAPER, SCISSORS </h1>
+    <br>
+
+    <div class="content">
+        <h2> Enter your name to play </h2>
+        <br>
+        <p> <%=@name%>, make your choice </p>
+        <br>
+        <form action='/result'>
+            <div class="rock_button">
+              <button type="submit">Rock</button>
+            </div>
+            <div class="paper_button">
+              <button type="submit">Paper</button>
+            </div>
+            <div class="rock_button">
+              <button type="submit">Scissors</button>
+            </div>
+        </form>
+
+    </div>
+
+  </body>
+
+
+</html>
